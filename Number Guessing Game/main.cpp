@@ -20,17 +20,20 @@ int main()
         cout<<"Enter a number between 1 and 100: ";
         cin>>guess;
         if (guess == random_no){
-            cout<<"Correct";
+            cout<<"Correct"<<endl;
             break;
         }
+        else if (guess < 0 || guess > 100){
+            cout<<"Out of range! Try again."<<endl;
+        }
         else if (guess > random_no){
-            cout<<"lower"<<endl;
+            cout<<"Lower"<<endl;
         }
         else if(guess < random_no){
-            cout<<"higher"<<endl;
+            cout<<"Higher"<<endl;
         }
     }
 
-    cout<<"\nCongratulations";
+    cout<<"Congratulations";
     return 0;
 }
