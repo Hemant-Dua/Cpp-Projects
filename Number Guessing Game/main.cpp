@@ -1,6 +1,6 @@
-// Number Guessing Game: Write a program that generates a random number between 1 and 100 (or any custom range).
-// The program prompts the user to guess the number. After each guess, provide feedback like "Higher", "Lower", or
-//"Correct" until the user guesses the right number.
+/* Number Guessing Game: Write a program that generates a random number between 1 and 100 (or any custom range).
+The program prompts the user to guess the number. After each guess, provide feedback like "Higher", "Lower", or
+"Correct" until the user guesses the right number.*/
 
 #include <iostream>
 #include <random>
